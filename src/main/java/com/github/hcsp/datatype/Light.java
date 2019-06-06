@@ -5,13 +5,13 @@ public class Light {
     // 亮 -> true
     // 灭 -> off
     // 未知 -> null
-    Boolean on;
+    Boolean on = null;
 
     public Light(Boolean on) {
         this.on = on;
     }
 
-    public boolean isOn() {
+    public Boolean isOn() {
         return on;
     }
 }
