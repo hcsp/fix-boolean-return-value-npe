@@ -9,6 +9,11 @@ public class Light {
 
     public Light(Boolean on) {
         this.on = on;
+        if(on == null)
+        {
+            this.on = false;
+        }
+
     }
 
     // 当灯亮时返回true，灭和未知状态返回false
