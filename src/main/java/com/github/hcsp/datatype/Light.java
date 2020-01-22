@@ -8,16 +8,12 @@ public class Light {
     Boolean on;
 
     public Light(Boolean on) {
-        if(on != null){
             this.on = on;
-        }else{
-            this.on = false;
-        }
     }
 
     // 当灯亮时返回true，灭和未知状态返回false
     public boolean isOn() {
-        return on;
+        return (on == null) ? false : on;
     }
 
     public Boolean isOnRawValue() {
