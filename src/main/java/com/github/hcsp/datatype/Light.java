@@ -1,5 +1,7 @@
 package com.github.hcsp.datatype;
 
+import com.sun.org.apache.bcel.internal.generic.RETURN;
+
 public class Light {
     // 一盏灯可能有三种状态：
     // 亮 -> true
@@ -13,6 +15,9 @@ public class Light {
 
     // 当灯亮时返回true，灭和未知状态返回false
     public boolean isOn() {
+        if (on == null || on == false) {
+            return false;
+        }
         return on;
     }
 
