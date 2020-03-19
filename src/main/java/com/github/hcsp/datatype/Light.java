@@ -11,7 +11,6 @@ public class Light {
         this.on = on;
     }
 
-    // 当灯亮时返回true，灭和未知状态返回false
     public boolean isOn() {
         if (on == null) {
             return false;
@@ -19,15 +18,6 @@ public class Light {
             return on;
         }
     }
-//       } else {
-//            if (on == false) {
-//                return false;
-//            } else {
-//                return true;
-//            }
-//        }
-
-    //
 
     public Boolean isOnRawValue() {
         return on;
