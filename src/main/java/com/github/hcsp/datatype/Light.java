@@ -15,7 +15,7 @@ public class Light {
     public boolean isOn() {
         if (on != null) {
             return on;
-        }else{
+        } else {
             return false;
         }
 
