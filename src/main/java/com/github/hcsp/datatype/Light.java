@@ -8,7 +8,7 @@ public class Light {
     boolean on;
 
     public Light(Boolean on) {
-        if(on == null){
+        if (on == null) {
             on = false;
         }
         this.on = on;
