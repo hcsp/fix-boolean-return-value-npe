@@ -5,9 +5,12 @@ public class Light {
     // 亮 -> true
     // 灭 -> off
     // 未知 -> null
-    Boolean on;
+    boolean on;
 
     public Light(Boolean on) {
+        if(on == null){
+            on = false;
+        }
         this.on = on;
     }
 
