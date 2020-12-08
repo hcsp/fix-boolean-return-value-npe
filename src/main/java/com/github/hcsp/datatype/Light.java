@@ -5,7 +5,7 @@ public class Light {
     // 亮 -> true
     // 灭 -> off
     // 未知 -> null
-    boolean on;
+    Boolean on;
 
     public Light(Boolean on) {
         if (on == null) {
