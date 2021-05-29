@@ -22,6 +22,6 @@ public class Light {
     }
 
     public Boolean isOnRawValue() {
-        return stateHandler();
+        return on;
     }
 }
