@@ -21,6 +21,6 @@ public class Light {
     }
 
     public Boolean isOnRawValue() {
-        return false;
+        return on;
     }
 }
