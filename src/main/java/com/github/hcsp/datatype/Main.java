@@ -16,4 +16,3 @@ public class Main {
         System.out.println("灭了的灯亮着吗：" + on3);
     }
 }
-
