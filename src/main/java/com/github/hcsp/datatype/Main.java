@@ -4,7 +4,7 @@ public class Main {
     // 修复com/github/hcsp/datatype/Light.java，使得运行这个方法不会抛出空指针异常
     public static void main(String[] args) {
         Light light1 = new Light(null);
-        boolean on1 = light1.isOn();
+        Boolean on1 = light1.isOnRawValue();
         System.out.println("状态未知的灯亮着吗：" + on1);
 
         Light light2 = new Light(true);
@@ -16,3 +16,4 @@ public class Main {
         System.out.println("灭了的灯亮着吗：" + on3);
     }
 }
+
