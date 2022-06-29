@@ -13,9 +13,9 @@ public class Light {
 
     // 当灯亮时返回true，灭和未知状态返回false
     public boolean isOn() {
-        if (on == null) {
+        if (this.on == null) {
             return false;
-        } else if (on == true) {
+        } else if (this.on == true) {
             return true;
         }
         return false;
