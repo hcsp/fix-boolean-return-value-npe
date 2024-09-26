@@ -13,10 +13,14 @@ public class Light {
 
     // 当灯亮时返回true，灭和未知状态返回false
     public boolean isOn() {
-        return on;
+        Boolean c = true;
+        if (on != null) {
+            return on;
+        }
+        return false;
     }
 
-    public Boolean isOnRawValue() {
+    public boolean isOnRawValue() {
         return on;
     }
 }
